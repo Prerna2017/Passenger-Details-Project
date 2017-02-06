@@ -1,0 +1,54 @@
+Hi Prerna,
+ 
+Please find the assignment details below.. I expect to receive from you before Tuesday Evening (7th Feb). Please let me know if you can deliver it or require more time..
+ 
+Develop a RESTful service using Spring framework as described below
+ 
+� Resource � Passenger
+ 
+Passenger is a resource in this case and it contains
+Ticket Number
+               First Name
+               Last Name
+               Gender
+               Age
+               Passport Number
+               Seat Number
+               Meal Type (Vegetarian, Non Vegetarian, Diabetic Meal etc)
+              
+� Expose the following Rest Services
+ 
+getAllPassengers � Should give a list of all passengers(with the above list)
+getPassenger � Should give passenger details based on the query like Ticket Number, First Name and Last Name
+updatePassenger � Update the details of Passenger
+ 
+� Create an UI to search passengers and update details, an example given below
+ 
+A page with a text box to enter the ticket number and on submit show the passenger details corresponding to that ticket number
+In the passenger details page, edit button should be present only for the fields Seat Number, Passport Number and Meal Type
+On clicking edit, you can change the value of Seat Number, Passport Number and Meal Type and on submit show the passenger details page with the updated details
+ 
+My Expectation
+ 
+� The exercise must be implemented using a public git repository(github or bitbucket etc), and the URL has to be delivered when finished
+� Use Spring boot to run the application
+� Use Maven or Gradle for project management
+� I should be able to just checkout the code and use the spring boot command to run the application
+� Use the Spring and Rest features as far as you can
+� I should be able to test the application as Rest service also via postman and not only using the UI you build
+� Since you are exposing Rest service, the UI should consume the REST service using Ajax or similar technology and display the details.
+This means, do not use the built in Spring View Resolvers to build the UI.
+� I expect junit for each and every java class
+� You are free to choose any technology for the UI/Front end
+� You are free to choose mocks or cache or in memory database to store the passenger details.
+ 
+Bonus Requirement
+ 
+The below requirement will give you extra points but not mandatory
+ 
+� The application is deployed in any cloud provider, so I can explore it without running it myself.
+
+� Automation testing is also provided
+� Use Angular Js for building the front end
+� Add additional Rest services if needed
+ 
